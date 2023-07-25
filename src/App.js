@@ -12,7 +12,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="bg-cool-black h-full md:h-full">
+    <div className="bg-cool-black h-full md:h-full w-screen overflow-x-hidden">
       <Navbar/>
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>

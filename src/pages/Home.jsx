@@ -47,12 +47,12 @@ const Home = () => {
 	}
 
 	return (
-		<div className="p-12 lg:pl-24 flex justify-start items-center text-sky-white lg:mt-0 h-fit lg:h-screen">
+		<div className="p-12 lg:pl-24 flex justify-start items-center text-sky-white lg:mt-0 h-fit w-full lg:h-screen">
 		    <motion.div 
 		        variants={quickViewVariants}
 		        initial="hidden"
 		        animate="closed"
-		        className="font-tektur text-3xl md:text-6xl z-50 text-sky-white bg-cool-black font-bold text-center flex justify-center items-center w-full h-screen absolute top-16 bottom-0 right-0 left-0"
+		        className="font-tektur text-3xl md:text-6xl z-50 text-sky-white bg-cool-black font-bold text-center flex justify-center items-center pb-20 w-full h-screen absolute top-16 bottom-0 right-0 left-0"
 		    >welcome</motion.div>
 		    <motion.div 
 		        variants={quickCloseVariants}
@@ -64,14 +64,14 @@ const Home = () => {
 			    variants={containerVariants}
 			    initial="hidden"
 		        animate="visible"
-			    className="flex flex-col lg:flex-row-reverse justify-start items-start gap-16 lg:gap-24"
+			    className="flex flex-col lg:flex-row-reverse justify-start items-start gap-16 lg:gap-24 w-screen overflow-x-hidden"
 			>
 				<div className="ml-auto mr-auto">
 					<img className="w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem] rounded-[50%]" src={profile} alt="profile"/>
 				</div>
 				<div className="flex flex-col items-start text-center gap-4 lg:gap-10">
 					<h1
-					    className="font-tektur font-bold text-left text-3xl md:text-5xl lg:text-7xl tracking-widest"
+					    className="font-tektur font-bold text-left text-3xl md:text-5xl lg:text-6xl tracking-widest"
 					><span className="flex flex-col lg:flex-row items-start text-lg md:text-2xl">Hey, I'm</span> <span>OLUWATOBI OLORO</span></h1>
 					<h3 className="font-montserrat font-semibold text-lg md:text-xl lg:text-3xl tracking-wider">A Frontend Web Developer</h3>
 					<h4 className="font-montserrat font-normal text-left text-lg md:2xl max-w-[600px]">I've spent the last 2 and half years helping business owners and companies build and manage websites for their bussiness. Let's connect!</h4>

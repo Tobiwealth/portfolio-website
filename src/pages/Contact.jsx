@@ -53,7 +53,7 @@ const Contact = () => {
 		        variants={quickViewVariants}
 		        initial="hidden"
 		        animate="closed"
-		        className="font-tektur text-3xl md:text-6xl text-sky-white bg-cool-black font-bold text-center flex justify-center items-center w-full h-screen absolute top-16 bottom-0 right-0 left-0"
+		        className="font-tektur text-3xl md:text-6xl text-sky-white bg-cool-black pb-20 font-bold text-center flex justify-center items-center w-full h-screen absolute top-16 bottom-0 right-0 left-0"
 		    >Let's Connect</motion.div>
 		    <motion.div 
 		        variants={quickCloseVariants}
@@ -78,13 +78,13 @@ const Contact = () => {
 				</div>
 				<div className="flex justify-start items-center gap-8 font-dmsans text-base md:text-lg lg:text-xl max-w-[800px] flex-wrap">
 					<div className="">
-					    <a target="_blank" rel="noreferrer" href=""><i className="fa-brands fa-github mr-2 scale-125"></i>Tobiwealth</a>
+					    <a target="_blank" rel="noreferrer" href="https://github.com/Tobiwealth"><i className="fa-brands fa-github mr-2 scale-125"></i>Tobiwealth</a>
 					</div>
 					<div>
-					    <a target="_blank" rel="noreferrer" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fthetobiwealth%3Flang%3Den"><i className="fa-brands fa-twitter mr-2 scale-125"></i>@thetobiwealth</a>
+					    <a target="_blank" rel="noreferrer" href="https://twitter.com/thetobiwealth"><i className="fa-brands fa-twitter mr-2 scale-125"></i>@thetobiwealth</a>
 					</div>
 					<div>
-					    <a target="_blank" rel="noreferrer" href=""><i className="fa-brands fa-instagram mr-2 scale-125"></i>@thetobiwealth</a>
+					    <a target="_blank" rel="noreferrer" href="https://instagram.com/tobiwealth"><i className="fa-brands fa-instagram mr-2 scale-125"></i>@thetobiwealth</a>
 					</div>
 					<div>
 					    <a target="_blank" rel="noreferrer" href="https://wa.link/if7es8"><i className="fab fa-whatsapp mr-2 scale-125"></i>08142292457</a>

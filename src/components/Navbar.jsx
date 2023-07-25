@@ -42,7 +42,7 @@ const Navbar = () => {
 
 
 	return (
-		<div className="flex justify-center h-16 items-center z-50 text-sm font-tektur md:text-base p-6 md:p-16 lg:p-24 md:pt-6 md:pb-6 lg:pb-6 lg:pt-6 bg-cool-black text-sky-white sticky top-0">
+		<div className="flex justify-center h-16 items-center w-screen z-50 text-sm font-tektur md:text-base p-6 md:p-16 lg:p-24 md:pt-6 md:pb-6 lg:pb-6 lg:pt-6 bg-cool-black text-sky-white sticky top-0">
 			<div className="flex justify-between items-center w-full">
 				<div> <NavLink to="/">&copy;coded by TobiWealth</NavLink></div>
 				<div className="hidden lg:flex justify-around items-center gap-8">
