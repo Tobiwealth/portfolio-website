@@ -52,7 +52,7 @@ const Home = () => {
 		        variants={quickViewVariants}
 		        initial="hidden"
 		        animate="closed"
-		        className="font-tektur text-3xl md:text-6xl z-50 text-sky-white bg-cool-black font-bold text-center flex justify-center items-center pb-20 w-full h-screen absolute top-16 bottom-0 right-0 left-0"
+		        className="font-tektur text-3xl md:text-6xl text-sky-white bg-cool-black font-bold text-center flex justify-center items-center pb-20 w-full h-screen absolute top-16 bottom-0 right-0 left-0"
 		    >welcome</motion.div>
 		    <motion.div 
 		        variants={quickCloseVariants}

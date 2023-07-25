@@ -65,7 +65,7 @@ const About = () => {
 		        initial="hidden"
 		        animate="closed"
 		        exit="exit"
-		        className="font-tektur text-3xl md:text-6xl z-50 text-sky-white pb-20 bg-cool-black font-bold text-center flex justify-center items-center w-full h-screen absolute top-16 bottom-0 right-0 left-0"
+		        className="font-tektur text-3xl md:text-6xl text-sky-white pb-20 bg-cool-black font-bold text-center flex justify-center items-center w-full h-screen absolute top-16 bottom-0 right-0 left-0"
 		    >About me</motion.div>
 		    <motion.div 
 		        variants={quickCloseVariants}
