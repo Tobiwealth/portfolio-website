@@ -74,7 +74,7 @@ const Home = () => {
 					    className="font-tektur font-bold text-left text-3xl md:text-5xl lg:text-6xl tracking-widest"
 					><span className="flex flex-col lg:flex-row items-start text-lg md:text-2xl">Hey, I'm</span> <span>OLUWATOBI OLORO</span></h1>
 					<h3 className="font-montserrat font-semibold text-lg md:text-xl lg:text-3xl tracking-wider">A Frontend Web Developer</h3>
-					<h4 className="font-montserrat font-normal text-left text-lg md:2xl max-w-[600px]">I've spent the last 2 and half years helping business owners and companies build and manage websites for their bussiness. Let's connect!</h4>
+					<h4 className="font-montserrat font-normal text-left text-lg md:2xl max-w-[600px]">I've spent the last two and half years helping business owners and companies build and manage websites for their bussiness. Let's connect!</h4>
 					<p className="font-montserrat font-normal text-lg md:2xl"><i className="fas fa-map-marker-alt text-sky-white"></i><span className="ml-3 font-dmsans font-normal text-base md:text-lg tracking-wide">Lagos, Nigeria</span></p>
 				</div>
 			</motion.div>
