@@ -69,12 +69,12 @@ const Contact = () => {
 			>
 				<h1 className="font-tektur font-semibold text-3xl md:text-5xl lg:text-7xl mb-6">Let's Connect</h1>
 				<p className='flex flex-col gap-2 text-dmsans text-xl md:text-2xl max-w-[800px]'>
-				    <span>Hit me up if you need a web developer to help you with a creative and visually appealing websites.</span>
+				    <span>Hit me up if you need a web developer to help you with a creative and visually appealing website.</span>
 				    <span>I'm always open to a full time or remote junior web developer role, freelancing and collaboration on projects.</span>
 				</p>
 				<div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-8 font-dmsans text-base md:text-lg lg:text-xl">
 					<a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/182SStgsx3_ZjkiJF1mu_fHtdY17YLeZJ/view?usp=sharing"><i className="fa-solid fa-file mr-2 scale-125"></i>Resume</a>
-					<a target="_blank" rel="noreferrer" href="mailto:olorotobi@gmail.com"><i className="fa-solid fa-envelope mr-2 scale-125"></i>olorotob@gmail.com</a>
+					<a target="_blank" rel="noreferrer" href="mailto:olorotobi@gmail.com"><i className="fa-solid fa-envelope mr-2 scale-125"></i>olorotobi@gmail.com</a>
 				</div>
 				<div className="flex justify-start items-center gap-8 font-dmsans text-base md:text-lg lg:text-xl max-w-[800px] flex-wrap">
 					<div className="">
