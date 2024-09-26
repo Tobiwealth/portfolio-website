@@ -207,7 +207,7 @@ const Projects = () => {
 				        className="p-4 w-full h-full grid place-items-center text-very-dark-grayish-bluee font-bold"
 				        style={{backdropFilter: 'blur(10px)'}}
 					>
-					    <a target="_blank" rel="noreferrer" href="https://resonant-hotteok-55fcc3.netlify.app/">
+					    <a target="_blank" rel="noreferrer" href="https://securepay-peach.vercel.app">
 					        <h2 className="font-montserrat text-2xl md:text-3xl lg:text-5xl">Fraudit</h2>
 					        <p className="font-dmsans text-lg md:text-xl mt-2 ">A website that Provides Security for business transactions.</p>
 					    </a>
